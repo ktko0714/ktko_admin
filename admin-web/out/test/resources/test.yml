@@ -1,0 +1,5 @@
+adminDb:
+  url: jdbc:mysql://localhost:3306/test
+  userName: root1
+  password: dbswjd1010!
+  driverClassName: com.mysql.jdbc.Driver

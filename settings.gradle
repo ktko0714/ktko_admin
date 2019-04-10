@@ -1,0 +1,3 @@
+rootProject.name = 'ktko-admin'
+
+include 'admin-common', 'admin-api', 'admin-web'

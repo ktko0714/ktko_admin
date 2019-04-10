@@ -1,0 +1,28 @@
+database:
+  adminMaster:
+    datasourceProperties:
+      poolName: ktko
+      jdbcUrl: jdbc:mysql://localhost:8080/admin
+      userName: root
+      password: dbswjd1010
+    minimumIdle: 5
+    maximumPoolSize: 10
+    persistenceUnits:
+      database: MYSQL
+      packagesToScan: com.ktko.admin.*.domain.*
+
+adminDb:
+  url: jdbc:mysql://localhost:3306/admin?useSSL=false
+  userName: root
+  password: dbswjd1010
+  driverClassName: com.mysql.jdbc.Driver
+
+spring:
+  thymeleaf:
+    cache: false
+
+
+
+
+
+

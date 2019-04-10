@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ktko.admin.database.PersistenceLoader",
+      "name": "database",
+      "type": "com.ktko.admin.database.PersistenceLoader"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ktko.admin.database.PersistenceLoader",
+      "name": "database.admin-master",
+      "type": "com.ktko.admin.database.DbConnectionProperty"
+    }
+  ]
+}
