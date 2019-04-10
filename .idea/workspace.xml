@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef98dac-d9f8-41aa-8ff8-29e5dbce2366" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/infra/database/BasicDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/infra/database/BasicDataSourceConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -149,11 +148,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/infra/database/BasicDataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="533">
               <caret line="84" selection-start-line="84" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin-api/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin-api/src/main/java/com/ktko/admin/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -197,24 +223,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/domain/manager/service/ManagerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/domain/manager/mapper/ManagerMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -253,6 +261,7 @@
       <find>PasswordEncoder</find>
       <find>javassist</find>
       <find>UsernamePasswordAuthenticationToken</find>
+      <find>api</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,7 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/domain/manager/repository/ManagerRepository.java" />
         <option value="$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/database/BasicDataSourceConfig.java" />
         <option value="$PROJECT_DIR$/admin-web/src/main/java/com/ktko/admin/infra/ManagerDispatcherServlet.java" />
         <option value="$PROJECT_DIR$/admin-web/src/main/java/com/ktko/admin/infra/servlet/TestDispatcherServlet.java" />
@@ -312,10 +320,11 @@
         <option value="$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/domain/manager/mapper/ManagerMapper.java" />
         <option value="$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/domain/manager/service/ManagerService.java" />
         <option value="$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/infra/database/BasicDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -677,7 +686,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554868311393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554868402086" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -686,8 +695,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/admin-web/src/main/resources/message" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin-api" />
+      <recent name="$PROJECT_DIR$/admin-web/src/main/resources/templates/fragments" />
+      <recent name="$PROJECT_DIR$/admin-web/src/main/resources" />
+      <recent name="$PROJECT_DIR$/admin-web/src/main/resources/META-INF/services" />
       <recent name="$PROJECT_DIR$/admin-common/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -695,12 +707,9 @@
       <recent name="com.ktko.admin.infra.config" />
       <recent name="com.ktko.admin.domain.user" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/admin-web/src/main/resources/templates/fragments" />
-      <recent name="$PROJECT_DIR$/admin-web/src/main/resources" />
-      <recent name="$PROJECT_DIR$/admin-web/src/main/resources/META-INF/services" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin-web/src/main/resources/message" />
       <recent name="$PROJECT_DIR$/admin-common/src/test/resources" />
-      <recent name="$PROJECT_DIR$/admin-common/src/test/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -850,7 +859,7 @@
       <workItem from="1554643455603" duration="834000" />
       <workItem from="1554721127174" duration="3125000" />
       <workItem from="1554779423578" duration="7187000" />
-      <workItem from="1554861328873" duration="3850000" />
+      <workItem from="1554861328873" duration="4148000" />
     </task>
     <servers />
   </component>
@@ -887,10 +896,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80805000" />
+    <option name="totallyTimeSpent" value="81103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -898,7 +908,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18012924" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2746365" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -934,23 +944,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin-web/src/main/java/com/ktko/admin/domain/main/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/3.0.10.RELEASE/df03a5acbb96efd8dd185c20bf12a7c8ac42b36b/thymeleaf-3.0.10.RELEASE-sources.jar!/org/thymeleaf/ITemplateEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring5/3.0.10.RELEASE/61b7fa41cb77dc3191e0078109ff7eaf9b474ded/thymeleaf-spring5-3.0.10.RELEASE-sources.jar!/org/thymeleaf/spring5/ISpringTemplateEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1348,17 +1341,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin-common/src/main/java/com/ktko/admin/infra/database/BasicDataSourceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-api/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-api/src/main/java/com/ktko/admin/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
         </state>
       </provider>
     </entry>
