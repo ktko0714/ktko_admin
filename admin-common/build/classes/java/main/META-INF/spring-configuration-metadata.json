@@ -2,16 +2,16 @@
   "hints": [],
   "groups": [
     {
-      "sourceType": "com.ktko.admin.database.PersistenceLoader",
+      "sourceType": "com.ktko.admin.infra.database.PersistenceLoader",
       "name": "database",
-      "type": "com.ktko.admin.database.PersistenceLoader"
+      "type": "com.ktko.admin.infra.database.PersistenceLoader"
     }
   ],
   "properties": [
     {
-      "sourceType": "com.ktko.admin.database.PersistenceLoader",
+      "sourceType": "com.ktko.admin.infra.database.PersistenceLoader",
       "name": "database.admin-master",
-      "type": "com.ktko.admin.database.DbConnectionProperty"
+      "type": "com.ktko.admin.infra.database.DbConnectionProperty"
     }
   ]
 }

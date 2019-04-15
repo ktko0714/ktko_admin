@@ -7,10 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Description;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.web.servlet.ViewResolver;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.config.annotation.*;
 import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
@@ -18,9 +15,6 @@ import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 @EnableWebMvc
 @Configuration
 public class BaseWebConfig implements WebMvcConfigurer {
-
-
-
 
     @Bean
     public PrivacyPolicyInterceptor privacyPolicyInterceptor() {
@@ -41,9 +35,9 @@ public class BaseWebConfig implements WebMvcConfigurer {
         ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
 
         templateResolver.setPrefix("templates/");
-        templateResolver.setCacheable(false);
+        templateResolver.setCacheable(Boolean.FALSE);
         templateResolver.setSuffix(".html");
-        templateResolver.setTemplateMode("HTML5");
+        templateResolver.setTemplateMode("HTML");
         templateResolver.setCharacterEncoding("UTF-8");
 
         return templateResolver;
@@ -95,5 +89,12 @@ public class BaseWebConfig implements WebMvcConfigurer {
         messageSource.setCacheSeconds(5);
 
         return messageSource;
+    }
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/resources/**")
+                .addResourceLocations("/resources/")
+                .setCachePeriod(31556926);
     }
 }

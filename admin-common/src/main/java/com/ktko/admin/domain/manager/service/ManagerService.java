@@ -33,7 +33,7 @@ public class ManagerService {
     }
 
     public Manager loginManager(String eMail, String password) {
-
+        System.out.println("loginManager !!!!!!!!!!" + eMail + "::" + password);
         return managerMapper.getManager(eMail, password);
     }
 

@@ -7,8 +7,16 @@
 <th:block layout:fragment="script"/>
 
 <div layout:fragment="content">
-    <div style="border: 1px solid red">
-        login.html 입니다.
-    </div>
+    <form method="post" action="/sign/processing">
+        <div>
+            Email: <input type="text" name="email" autofocus />
+        </div>
+        <div>
+            Password: <input type="password" name="password" />
+        </div>
+        <div>
+            <input type="submit" value="Log in" />
+        </div>
+    </form>
 </div>
 </html>

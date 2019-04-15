@@ -27,8 +27,7 @@ public class TestController {
 
 
     @PostMapping("validate")
-    public String validate(@ModelAttribute("testObj")
-        @Valid TestObj testObj, BindingResult bindingResult)  {
+    public String validate(@ModelAttribute("testObj") @Valid TestObj testObj, BindingResult bindingResult)  {
 
         System.out.println(testObj.toString());
         System.out.println(testObj.getNotNullCheck() == null);
